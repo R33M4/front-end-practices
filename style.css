@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+
+body{
+    width: 1440px;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+.main{
+    width: 30vw;
+    height: 85vh;
+    margin: 4em auto;
+    background-color: #fff;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 15px;
+
+}
+
+.main .illustration{
+    width: 30vw;
+}
+
+.main h1{
+    color: hsl(223, 47%, 23%);
+    margin: 0.8em 0;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+
+.main p{
+    color: hsl(224, 23%, 55%);
+    font-weight: 200;
+    margin: 0.8em 0;
+    font-size: smaller;
+
+}
+
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    width: 300px;
+    height: 180;
+    margin: 0.8em auto;
+    border-radius: 1.1em;
+    
+}
+
+.plan h1{
+    font-size: smaller;
+    font-weight: bolder;
+    margin-top: 2em;
+    text-align: left;
+    margin-left: 2em;
+}
+
+.plan p{
+    text-align: left;
+    margin-left: 2em;
+}
+.plan img{
+   position: relative;
+    float: left;
+    margin: 1em 0 0 1em;
+}
+
+.change-plan{
+    text-align: right;
+    margin-right: 2em;
+    margin-bottom: 5em;
+}
+
+.change-plan:hover{
+    color: hsl(224, 19%, 50%);
+}
+.payment-btn{    
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    padding: 0.5rem;
+    margin-top: 2em;
+    width: 15rem;
+    border: none;
+    outline: none;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.payment-btn:hover{
+    background-color:hsla(224, 67%, 60%, 0.811);
+    color: #fff;
+    padding: 0.5rem;
+    margin-top: 2em;
+    width: 15.6rem;
+    border: none;
+    outline: none;
+    border-radius: 1em;
+    cursor: pointer;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    transition: 0.4s;
+}
